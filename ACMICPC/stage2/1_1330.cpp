@@ -6,6 +6,11 @@ int main(void)
 {
     int a = 0, b = 0;
     cin >> a >> b;
-    printf("%d\n%d\n%d\n%d\n%d", a + b, a - b, a * b, a / b, a % b);
+    if (a > b)
+        cout << '>';
+    else if (a < b)
+        cout << '<';
+    else
+        cout << "==";
     return 0;
 }
