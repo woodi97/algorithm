@@ -6,7 +6,9 @@
             "request": "launch",
             "name": "Lldb debug",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
+            "args": [
+                "-g"
+            ],
             "cwd": "${workspaceRoot}"
         }
     ]
